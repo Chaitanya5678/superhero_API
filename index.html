@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="home-container">
+
+        <div>
+            <h1>Search a Super Hero:</h1>
+
+            <form autocomplete="off" action="superhero.html" method="GET">
+                <div class="autocomplete" style="width:300px;">
+                    <input id="myInput" type="text" name="mySuperHero" placeholder="Super Hero">
+                </div>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+        <div class="favs-btn-container">
+            <button class="favs-btn" onClick="location.href='favourites.html'"> <img
+                src="https://www.flaticon.com/svg/static/icons/svg/2698/2698202.svg" alt="" height="25px" width="25px">
+            <p>Favourites</p>
+        </button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

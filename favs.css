@@ -1,0 +1,28 @@
+.hero-tile
+{
+    margin: 10px;
+}
+
+.hero-tile img
+{
+    height: 300px;
+    width: 300px;
+}
+
+#favs
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3, h1
+{
+    margin-left: 10px;
+}
+
+.remove-btn
+{
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
